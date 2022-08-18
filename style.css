@@ -1,0 +1,100 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Mukta";
+ }
+
+.header {
+    height: 100vh;
+    background-size: cover;
+    background-image: url("./img.jpj/pexels-jpj.jpg");
+    padding-top: 30px;
+ }
+
+.content {
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    width: 1320px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button1 {
+    background-color: rgb(51, 136, 89);
+    text-decoration: none;
+    padding: 8px 30px;
+    color: white;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.links {
+    gap: 30px;
+    display: flex;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-family: "Ubuntu";
+    margin-left: 20px;
+}
+
+.link {
+    color: #000;
+    text-decoration: none;
+}
+
+.links:last-child {
+    margin: 0;
+}
+
+.button2 {
+    border-radius: 30px;
+    padding: 12px 34px;
+    text-decoration: none;
+    background-color: rgb(51, 136, 89);
+    color: white;
+    margin-right: 20px;
+}
+
+.link:hover {
+    color: rgb(34, 204, 108);
+}
+
+.button2:hover {
+    background-color: rgb(34, 196, 143);
+}
+
+.text {
+    margin-top: 100px;
+}
+
+.top-text {
+    font-family: "Raleway";
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.text-title {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+
+.button3 {
+    display: block;
+    text-decoration: none;
+    border: 2px solid white;
+    color: white;
+    border-radius: 30px;
+    padding: 12px 34px;
+    margin: auto;
+    width: 120px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.button3:hover {
+    background-color: rgb(34, 204, 108);;
+}
